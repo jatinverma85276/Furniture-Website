@@ -1,0 +1,48 @@
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .furniture_showcase li {
+        width: 50%;
+    }
+    .contact-form textarea {
+        width: 380px;
+      }
+      .contact-form {
+        margin: auto;
+      }
+      .contact-form input{
+          margin-bottom: 6px;
+      }
+      .newletter-1{
+        font-size:30px;
+      }
+      .newletter-2 p {
+        color: #fff;
+        font-size: 30px;
+        }
+        .newletter-2 {
+          float: right;
+          width: 60%;
+          }
+          .submit-box {
+            width: 25%;
+            margin-left: 2px;
+            }
+            
+            .submit-box input {
+            padding: 9% 15%;
+            cursor: pointer;
+            }  
+            .footer-nav li,
+            .social-links li {
+            display: inline-block;
+            margin: 20px 12px;
+            font-size: 20px;
+            color: #fff;
+            }
+              
+  .footer-heading{
+    position: absolute;
+      bottom: 0px;
+      left: 0%;
+    }
+}
