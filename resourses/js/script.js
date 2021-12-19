@@ -59,4 +59,22 @@
  }
 
 
+ /**************************************************************** */
+ /*****Footer*********************************/
+ /****************************************************************/
+
+ const subscribe = document.querySelector(".subscribe");
+ const email_box = document.querySelector(".email-box");
+ const submit_box = document.querySelector(".submit-box");
+
+ window.onresize = function(){
+    if(this.innerWidth <480){
+       subscribe.remove();
+      email_box.remove();
+      submit_box.remove();
+    }
+ }
+
+
+ 
  
