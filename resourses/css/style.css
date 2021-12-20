@@ -542,7 +542,7 @@ h2:after {
   
   footer {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-	  url(/resourses/img/footer.jpg);
+	  url(resourses/img/footer.jpg);
 	margin-top: 130px;
 	height: 24rem;
 	position: relative;
