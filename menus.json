@@ -1,8 +1,8 @@
 [{
 	"menus": [
-		"Add",
-		"view",
-		"Delete",
-		"Search"
+		{"name":"Add","url": "/add"},
+		{"name":"View", "url" : "/view"},
+		{"name":"Delete", "url" : "/delete"},
+		{"name":"Search", "url": "/search"}
 	]
 }]
